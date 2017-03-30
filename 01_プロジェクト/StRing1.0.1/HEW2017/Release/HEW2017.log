@@ -1,0 +1,58 @@
+﻿2017/3/2 下午5:37:41 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Dropbox\工程\HEW2017\HEW2017\HEW2017.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Attack.cpp AttackLEFT.cpp AttackRIGHT.cpp AttackUP.cpp AttJub.cpp BOSS.cpp Dead_Disp.cpp END.cpp injured.cpp LORD_Disp.cpp LORD_Play.cpp main.cpp Monsters.cpp Obstacle.cpp OutOfRange.cpp Player_Move.cpp Scene.cpp Title.cpp UI.cpp
+         Attack.cpp
+         AttackLEFT.cpp
+         AttackRIGHT.cpp
+         AttackUP.cpp
+         AttJub.cpp
+         BOSS.cpp
+         Dead_Disp.cpp
+         END.cpp
+         injured.cpp
+         LORD_Disp.cpp
+         LORD_Play.cpp
+         main.cpp
+         Monsters.cpp
+         Obstacle.cpp
+         OutOfRange.cpp
+         Player_Move.cpp
+         Scene.cpp
+         Title.cpp
+         UI.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\HEW2017.res" HEW2017.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Dropbox\工程\HEW2017\Release\HEW2017.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Dropbox\工程\HEW2017\Release\HEW2017.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Dropbox\工程\HEW2017\Release\HEW2017.lib" /MACHINE:X86 /SAFESEH Release\HEW2017.res
+         Release\Attack.obj
+         Release\AttackLEFT.obj
+         Release\AttackRIGHT.obj
+         Release\AttackUP.obj
+         Release\AttJub.obj
+         Release\BOSS.obj
+         Release\Dead_Disp.obj
+         Release\END.obj
+         Release\injured.obj
+         Release\LORD_Disp.obj
+         Release\LORD_Play.obj
+         Release\main.obj
+         Release\Monsters.obj
+         Release\Obstacle.obj
+         Release\OutOfRange.obj
+         Release\Player_Move.obj
+         Release\Scene.obj
+         Release\Title.obj
+         Release\UI.obj
+         コード生成しています。
+         コード生成が終了しました。
+     1>CScreenRel.lib(main.obj) : warning LNK4099: PDB 'vc120.pdb' が 'CScreenRel.lib(main.obj)' で、または 'C:\Dropbox\工程\HEW2017\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>CScreenRel.lib(MIDIFile.obj) : warning LNK4099: PDB 'vc120.pdb' が 'CScreenRel.lib(MIDIFile.obj)' で、または 'C:\Dropbox\工程\HEW2017\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>CScreenRel.lib(MP3File.obj) : warning LNK4099: PDB 'vc120.pdb' が 'CScreenRel.lib(MP3File.obj)' で、または 'C:\Dropbox\工程\HEW2017\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>CScreenRel.lib(WaveFile.obj) : warning LNK4099: PDB 'vc120.pdb' が 'CScreenRel.lib(WaveFile.obj)' で、または 'C:\Dropbox\工程\HEW2017\Release\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+         HEW2017.vcxproj -> C:\Dropbox\工程\HEW2017\Release\HEW2017.exe
+     1>プロジェクト "C:\Dropbox\工程\HEW2017\HEW2017\HEW2017.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:11.51
